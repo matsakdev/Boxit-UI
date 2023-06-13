@@ -1,0 +1,29 @@
+.info-section {
+    margin-top: 2rem
+}
+
+.stripe-left {
+    width: 20px; /* Ширина смужки ліворуч */
+    height: 100vh; /* Висота на весь екран */
+    background-color: red; /* Колір смужки ліворуч */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.stripe-right {
+    width: 20px; /* Ширина смужки праворуч */
+    height: 100vh; /* Висота на весь екран */
+    background-color: red; /* Колір смужки праворуч */
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.details-section {
+    margin: 0 20px; /* Відступи для контенту всередині смужок */
+    background-color: white; /* Колір білого блоку */
+    height: 100vh; /* Висота на весь екран */
+}

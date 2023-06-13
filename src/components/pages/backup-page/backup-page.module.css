@@ -1,0 +1,21 @@
+.root {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    margin: 2rem;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: gray;
+    box-shadow: #282c34;
+    padding: 1rem 2rem;
+}
